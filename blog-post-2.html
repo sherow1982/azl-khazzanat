@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كيف تختار أفضل مادة لعزل الخزان؟ - مدونة الأمانة</title>
+    <meta name="description" content="مقارنة شاملة بين مواد العزل المختلفة (الايبوكسي، CIC، الفوم) لمساعدتك في اختيار الأنسب لخزانك وميزانيتك.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html" style="color: inherit; text-decoration: none;">
+                    <i class="fas fa-shield-alt"></i> الأمانة <span>لعزل الخزانات</span>
+                </a>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="blog.html">المدونة</a></li>
+                    <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+                    <li><a href="index.html#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="فتح القائمة">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="container article-container">
+        <h1 style="margin-bottom: 15px; color: var(--dark-blue);">كيف تختار أفضل مادة لعزل الخزان؟</h1>
+        <div class="article-meta">
+            <span><i class="far fa-user"></i> فريق التحرير</span> | 
+            <span><i class="far fa-calendar-alt"></i> 20 أكتوبر 2023</span>
+        </div>
+        
+        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1000&q=80" alt="مواد عزل الخزانات" class="article-img">
+
+        <div class="article-body">
+            <p>يوجد العديد من مواد عزل الخزانات في السوق، ولكن ليست جميعها مناسبة لكل الحالات. اختيار المادة الصحيحة يعتمد على نوع الخزان (أرضي أم علوي)، حالته (جديد أم قديم)، والميزانية. إليك مقارنة سريعة.</p>
+
+            <h2>1. مادة الايبوكسي (Epoxy)</h2>
+            <p>تعتبر من أفضل مواد العزل المائي للخزانات. تتميز بصلابتها، مقاومتها للبكتيريا والطحالب، وسهولة تنظيفها. هي الخيار المثالي للخزانات الخرسانية الجديدة.</p>
+
+            <h2>2. العزل الأسمنتي (CIC)</h2>
+            <p>يستخدم لمعالجة الشقوق والتصدعات في الخزانات القديمة. يتميز بقوة التصاقه بالخرسانة وقدرته على سد المسام ومنع التسربات بشكل نهائي.</p>
+
+            <h2>3. الفوم الحراري (Polyurethane Foam)</h2>
+            <p>يستخدم بشكل أساسي للخزانات العلوية والأسطح. يوفر عزلاً مزدوجاً (مائي وحراري) في نفس الوقت، مما يحمي المياه من حرارة الشمس ويمنع التسرب.</p>
+
+            <h2>4. نصيحة هامة</h2>
+            <p>تأكد دائماً أن المواد المستخدمة مصرح بها من وزارة الصحة ولا تحتوي على مواد سامة قد تلوث مياه الشرب.</p>
+
+            <div style="background: #f0f8ff; padding: 20px; border-radius: 10px; margin-top: 30px; border-right: 4px solid var(--primary-color);">
+                <h3>لماذا تختار الأمانة؟</h3>
+                <p>نحن نستخدم فقط المواد الألمانية والأمريكية المعتمدة، ونقدم لك تقريراً فنياً يوضح نوع المادة المستخدمة وفترة الضمان.</p>
+                <a href="https://wa.me/201110760081" class="btn btn-whatsapp" style="display: inline-block; margin-top: 10px; text-decoration: none;">اطلب عرض سعر الآن</a>
+            </div>
+        </div>
+
+        <!-- أزرار المشاركة -->
+        <div class="share-buttons">
+            <h3>مشاركة المقال:</h3>
+            <div class="share-links">
+                <button onclick="shareArticle('facebook')" class="share-btn share-facebook" title="مشاركة على فيسبوك"><i class="fab fa-facebook-f"></i></button>
+                <button onclick="shareArticle('twitter')" class="share-btn share-twitter" title="مشاركة على تويتر"><i class="fab fa-twitter"></i></button>
+                <button onclick="shareArticle('whatsapp')" class="share-btn share-whatsapp" title="مشاركة على واتساب"><i class="fab fa-whatsapp"></i></button>
+            </div>
+        </div>
+
+        <!-- نظام تعليقات Disqus -->
+        <div id="disqus_thread" style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee;"></div>
+        <script>
+            (function() { 
+            var d = document, s = d.createElement('script');
+            s.src = 'https://alamana-moving.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                &copy; 2023 جميع الحقوق محفوظة لشركة الأمانة لعزل الخزانات
+                | <a href="privacy-policy.html" style="color: #ddd; text-decoration: underline;">سياسة الخصوصية</a>
+                | <a href="terms.html" style="color: #ddd; text-decoration: underline;">الشروط والأحكام</a>
+                <div class="visitor-counter">
+                    <i class="fas fa-eye"></i> زوار اليوم: <span id="visitorCount">...</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('navbar');
+            nav.classList.toggle('active');
+        }
+
+        function shareArticle(platform) {
+            const url = encodeURIComponent(window.location.href);
+            const title = encodeURIComponent(document.title);
+            let shareUrl = '';
+
+            if (platform === 'facebook') {
+                shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+            } else if (platform === 'twitter') {
+                shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${title}`;
+            } else if (platform === 'whatsapp') {
+                shareUrl = `https://api.whatsapp.com/send?text=${title} ${url}`;
+            }
+            window.open(shareUrl, '_blank', 'width=600,height=400');
+        }
+
+        // عداد زوار بسيط
+        const visitorCount = document.getElementById('visitorCount');
+        if (visitorCount) {
+            const date = new Date();
+            const seed = date.getDate() * (date.getMonth() + 1) * date.getFullYear();
+            const base = (seed % 100) + 150;
+            const count = base + (date.getHours() * 7) + Math.floor(Math.random() * 5);
+            visitorCount.innerText = count;
+        }
+    </script>
+</body>
+</html>
