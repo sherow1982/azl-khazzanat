@@ -10,4 +10,4 @@ Disallow: /*.json$
 User-agent: Googlebot-Image
 Allow: /galleria/
 
-Sitemap: https://sherow1982.github.io/naql-afsh/sitemap.xml
+Sitemap: https://sherow1982.github.io/azl-khazzanat/sitemap.xml
